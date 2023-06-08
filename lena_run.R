@@ -34,9 +34,12 @@ vorlagen$text[1] <- "Abstimmung über OECD-Mindeststeuer (Verfassungsänderung)"
 vorlagen$text[2] <- "Abstimmung über Klimagesetz (Referendum)"
 vorlagen$text[3] <- "Abstimmung über Covid-19-Gesetz (Referendum)"
   
-#Name anpassen
-
+#Französisch
 vorlagen_fr <- get_vorlagen(json_data,"fr")
+vorlagen_fr$text[1] <- "Réforme de l'imposition minimale selon les standards de l'OCDE"
+vorlagen_fr$text[2] <- "Loi sur le climat"
+vorlagen_fr$text[3] <- "Modification de la loi sur le Covid"
+
 vorlagen_it <- get_vorlagen(json_data,"it")
 
 time_start <- Sys.time()
