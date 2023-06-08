@@ -19,8 +19,8 @@ timestamp_kantonal <- read.csv("./Timestamp/timestamp_kantonal.txt",header=FALSE
 time_check_national <- timestamp_national == json_data$timestamp
 time_check_kantonal <- timestamp_kantonal == json_data_kantone$timestamp
 
-time_check_national <- FALSE
-time_check_kantonal <- TRUE
+time_check_national <- TRUE
+time_check_kantonal <- FALSE
 if ((time_check_national == TRUE) & (time_check_kantonal == TRUE)) {
 print("Keine neuen Daten gefunden")  
 } else {
