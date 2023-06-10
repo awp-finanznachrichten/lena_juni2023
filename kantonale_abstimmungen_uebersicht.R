@@ -53,7 +53,7 @@ if (sum(results$Gebiet_Ausgezaehlt) > 0 ) {
                                round((sum(results$Gebiet_Ausgezaehlt)*100)/nrow(results),1),
                                "%)")
   
-  if (sum(results$Gebiet_Ausgewaehlt) == nrow(results)) {
+  if (sum(results$Gebiet_Ausgezaehlt) == nrow(results)) {
     uebersicht_text_de <- paste0("<b>",titel_all$Vorlage_d[1],"</b><br>",
                                  "Es sind alle Gemeinden ausgezählt.")
     

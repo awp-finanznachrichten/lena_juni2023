@@ -32,7 +32,9 @@ output_dw_ZOL <- results %>%
            Gemeinde_Nr %in% 171:200 |
            Gemeinde_Nr == 226 |
            Gemeinde_Nr == 228 |
-           Gemeinde_Nr == 231)
+           Gemeinde_Nr == 231 |
+           Gemeinde_Nr == 296 |
+           Gemeinde_Nr == 297)
 
 output_dw_ZOL <- get_output_gemeinden(output_dw_ZOL)
 

@@ -32,14 +32,14 @@ cat("Aktuelle Abstimmungsdaten geladen\n")
 vorlagen_short <- c("OECD_Mindeststeuer","Klima_Gesetz","Covid_Gesetz")
 
 ###Kurznamen und Nummern kantonale Vorlagen
-kantonal_short <- c("BE_Elternzeit","BE_Schuldenbremse","AG_Klimaschutz","AG_Taktfahrplan","SO_Zwillingsinitiative 1","SO_Zwillingsinitiative 2","TI_Oeffnungszeiten",
-                    "JU_Autorites","FR_MHNF","VD_Climat","GE_Conge_Parental","GE_Solidarite","GE_Protect_Numerique","GE_Alimentation","GE_LEFI","GE_Emplois")
+kantonal_short <- c("BE_Elternzeit","BE_Schuldenbremse","AG_Klimaschutz","AG_Taktfahrplan","SO_Zwillingsinitiative 1","SO_Zwillingsinitiative 2",
+                    "JU_Autorites","FR_MHNF","VD_Climat","GE_Conge_Parental","GE_Solidarite","GE_LEFI")
 
 #Nummer in JSON 
-kantonal_number <- c(2,2,8,8,5,5,10,13,4,11,12,12,12,12,12,12) 
+kantonal_number <- c(2,2,8,8,5,5,13,4,11,12,12,12) 
 
 #Falls mehrere Vorlagen innerhalb eines Kantons, Vorlage auswaehlen
-kantonal_add <- c(2,1,3,2,2,3,1,1,1,1,2,3,4,5,6,1)
+kantonal_add <- c(2,1,3,2,2,3,1,1,1,2,3,6)
 
 ###Kurznamen und Nummern kantonale Vorlagen Spezialfaelle
 #kantonal_short_special <- c("ZH_Krankenkassen","BS_Klimagerechtigkeit")
