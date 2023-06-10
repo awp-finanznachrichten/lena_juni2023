@@ -11,6 +11,10 @@ for (i in 1:nrow(vorlagen)) {
 results <- get_results_kantonal(json_data_kantone,
                                   k,
                                   i)
+
+#Simulation Gemeinden
+   source("data_simulation_gemeinden.R")
+
 results <- treat_gemeinden(results)
 results <- format_data_g(results)
 
@@ -18,6 +22,8 @@ Ja_Stimmen_Kanton <- get_results_kantonal(json_data_kantone,
                                           k,
                                           i,
                                           "kantonal")
+#Ja_Stimmen_Kanton Simulation 
+  Ja_Stimmen_Kanton <- sample(1:100,1)  
 
 #Titel aus Spreadsheet
 titel_all <- Kantonale_Vorlagen_Titel %>%
@@ -63,10 +69,10 @@ if (sum(results$Gebiet_Ausgezaehlt) > 0 ) {
     uebersicht_text_it <- paste0("<b>",titel_all$Vorlage_i[1],"</b><br>",
                                  "Tutti i comuni sono noti.")
     
-    print(paste0("Resultate von folgender kantonalen Abstimmung aus ",kantone_list$geoLevelname[k]," sind komplett: ",
-                 titel_all$Vorlage_d[1],
-                 titel_all$Vorlage_f[1],
-                 titel_all$Vorlage_i[1]))
+    cat(paste0("Resultate von folgender kantonalen Abstimmung aus ",kantone_list$geoLevelname[k]," sind komplett:\n",
+                 titel_all$Vorlage_d[1],"\n",
+                 titel_all$Vorlage_f[1],"\n",
+                 titel_all$Vorlage_i[1],"\n\n"))
   }  
   
   Ja_Anteil <- round(Ja_Stimmen_Kanton,1)
