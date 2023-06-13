@@ -5,7 +5,7 @@ library(zip)
 library(RCurl)
 
 #Working Directory definieren
-setwd("C:/Users/simon/OneDrive/LENA_Project/lena_juni2023")
+setwd("C:/Users/sw/OneDrive/LENA_Project/20230618_LENA_Abstimmungen")
 
 ###Config: Bibliotheken laden, Pfade/Links definieren, bereits vorhandene Daten laden
 source("config.R",encoding = "UTF-8")
@@ -26,8 +26,18 @@ datum_fr <- "18 juin 2023"
 datum_it <- "18 percentuale sì 2023"
 
 #Vorlagen einlesen und Klammern entfernen
+##Deutsch
 vorlagen <- get_vorlagen(json_data,"de")
+vorlagen$text[1] <- "Abstimmung über OECD-Mindeststeuer (Verfassungsänderung)"
+vorlagen$text[2] <- "Abstimmung über Klimagesetz (Referendum)"
+vorlagen$text[3] <- "Abstimmung über Covid-19-Gesetz (Referendum)"
+
+#Französisch
 vorlagen_fr <- get_vorlagen(json_data,"fr")
+vorlagen_fr$text[1] <- "Réforme de l'imposition minimale selon les standards de l'OCDE"
+vorlagen_fr$text[2] <- "Loi sur le climat"
+vorlagen_fr$text[3] <- "Modification de la loi sur le Covid"
+
 vorlagen_it <- get_vorlagen(json_data,"it")
 
 vorlagen$text <- str_replace(vorlagen$text, "\\s*\\([^\\)]+\\)", "")

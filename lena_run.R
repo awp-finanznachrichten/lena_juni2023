@@ -64,7 +64,7 @@ source("kantonale_abstimmungen_uebersicht.R", encoding="UTF-8")
 ###Sonderanpassungen###
 
 ###Datenfeeds für Kunden###
-#source("datenfeeds_kunden.R", encoding="UTF-8")
+source("datenfeeds_kunden.R", encoding="UTF-8")
 
 #Make Commit
 git2r::config(user.name = "awp-finanznachrichten",user.email = "sw@awp.ch")
