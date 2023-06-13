@@ -92,3 +92,11 @@ Zürich, Bern, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, S
 
 2023-06-10 14:55:44 Covid_Gesetz
 Zürich, Bern, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Basel-Stadt, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Graubünden, Aargau, Thurgau, Tessin, Waadt, Wallis, Neuenburg, Genf, Jura, 
+
+2023-06-13 08:42:16 OECD_Mindeststeuer
+
+
+2023-06-13 08:42:41 Klima_Gesetz
+
+
+2023-06-13 08:43:10 Covid_Gesetz

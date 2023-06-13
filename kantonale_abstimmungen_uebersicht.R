@@ -23,7 +23,7 @@ Ja_Stimmen_Kanton <- get_results_kantonal(json_data_kantone,
                                           i,
                                           "kantonal")
 #Ja_Stimmen_Kanton Simulation 
-  Ja_Stimmen_Kanton <- sample(1:100,1)  
+  #Ja_Stimmen_Kanton <- sample(1:100,1)  
 
 #Titel aus Spreadsheet
 titel_all <- Kantonale_Vorlagen_Titel %>%

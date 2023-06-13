@@ -1,5 +1,5 @@
 for (k in 1:length(kantonal_short) ) {
-i <- k
+#i <- k
   cat(paste0("\nErmittle Daten für folgende Vorlage: ",kantonal_short[k],"\n"))
   
   results <- get_results_kantonal(json_data_kantone,
@@ -7,7 +7,7 @@ i <- k
                                   kantonal_add[k])
   
 #Simulation Gemeinden
-source("data_simulation_gemeinden.R")
+#source("data_simulation_gemeinden.R")
   
   #Daten anpassen Gemeinden
   results <- treat_gemeinden(results)
@@ -20,7 +20,7 @@ source("data_simulation_gemeinden.R")
                                             "kantonal")
   
   results$Ja_Stimmen_In_Prozent_Kanton <- Ja_Stimmen_Kanton
-results$Ja_Stimmen_In_Prozent_Kanton <- 55  #Ja_Stimmen_Kanton Simulation
+#results$Ja_Stimmen_In_Prozent_Kanton <- 55  #Ja_Stimmen_Kanton Simulation
   
   #Wie viele Gemeinden sind ausgezählt?
   cat(paste0(sum(results$Gebiet_Ausgezaehlt)," Gemeinden sind ausgezählt.\n"))
