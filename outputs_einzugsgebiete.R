@@ -45,7 +45,7 @@ output_dw_NAU_Bern <- get_output_gemeinden(output_dw_NAU_Bern)
 write.csv(output_dw_NAU_Bern,paste0("Output/",vorlagen_short[i],"_dw_NAU_Bern.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
 
 output_dw_NAU_Basel <- results[results$Kanton_Short == "BS" |
-                                results$Kanton_Short == "FL",]
+                                results$Kanton_Short == "BL",]
 
 output_dw_NAU_Basel <- get_output_gemeinden(output_dw_NAU_Basel)
 write.csv(output_dw_NAU_Basel,paste0("Output/",vorlagen_short[i],"_dw_NAU_Basel.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
