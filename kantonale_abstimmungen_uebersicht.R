@@ -13,7 +13,7 @@ results <- get_results_kantonal(json_data_kantone,
                                   i)
 
 #Simulation Gemeinden
-   source("data_simulation_gemeinden.R")
+   #source("data_simulation_gemeinden.R")
 
 results <- treat_gemeinden(results)
 results <- format_data_g(results)
