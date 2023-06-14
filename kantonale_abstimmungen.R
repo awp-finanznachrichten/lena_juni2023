@@ -39,7 +39,7 @@ for (k in 1:length(kantonal_short) ) {
            Storyboard = NA,
            Text_d = "Die Resultate dieser Gemeinde sind noch nicht bekannt.",
            Text_f = "Les résultats ne sont pas encore connus dans cette commune.",
-           Text_i = "I resultati di questa comune non sono ancora noti.")
+           Text_i = "I risultati di questo comune non sono ancora noti.")
   
   #Spezialfälle
   hist_check <- FALSE

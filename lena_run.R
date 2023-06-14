@@ -1,7 +1,7 @@
 #repeat{
 
 #Working Directory definieren
-setwd("C:/Users/sw/OneDrive/LENA_Project/20230618_LENA_Abstimmungen")
+setwd("C:/Users/simon/OneDrive/LENA_Project/20230618_LENA_Abstimmungen")
 
 ###Config: Bibliotheken laden, Pfade/Links definieren, bereits vorhandene Daten laden
 source("config.R",encoding = "UTF-8")
@@ -20,7 +20,7 @@ time_check_national <- timestamp_national == json_data$timestamp
 time_check_kantonal <- timestamp_kantonal == json_data_kantone$timestamp
 
 time_check_national <- FALSE
-time_check_kantonal <- TRUE
+time_check_kantonal <- FALSE
 if ((time_check_national == TRUE) & (time_check_kantonal == TRUE)) {
 print("Keine neuen Daten gefunden")  
 } else {
@@ -68,7 +68,7 @@ source("datenfeeds_kunden.R", encoding="UTF-8")
 
 #Make Commit
 git2r::config(user.name = "awp-finanznachrichten",user.email = "sw@awp.ch")
-token <- read.csv("C:/Users/sw/OneDrive/Github_Token/token.txt",header=FALSE)[1,1]
+token <- read.csv("C:/Users/simon/OneDrive/Github_Token/token.txt",header=FALSE)[1,1]
 git2r::cred_token(token)
 gitadd()
 gitcommit()
@@ -81,7 +81,7 @@ source("./top_flop/top_flop_chartbuilder_it-2144682.R", encoding = "UTF-8")
 
 
 #Make Commit
-token <- read.csv("C:/Users/sw/OneDrive/Github_Token/token.txt",header=FALSE)[1,1]
+token <- read.csv("C:/Users/simon/OneDrive/Github_Token/token.txt",header=FALSE)[1,1]
 git2r::cred_token(token)
 gitadd()
 gitcommit()
