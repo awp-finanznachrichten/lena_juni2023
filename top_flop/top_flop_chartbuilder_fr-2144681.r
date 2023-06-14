@@ -12,7 +12,7 @@ covid_flop_fr <- top_flop(covid,"flop","fr")
 
 
 #OCDE TOP
-chart_metadata <- dw_retrieve_chart_metadata("Rm3OV")
+chart_metadata <- dw_retrieve_chart_metadata("RfbP9")
 intro_text_fr <- gsub("[.].*","",chart_metadata$content$metadata$describe$intro)
 
 chart_ID <- "w5mAf"
