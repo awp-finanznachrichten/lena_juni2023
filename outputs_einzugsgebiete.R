@@ -37,6 +37,16 @@ output_dw_ZOL <- results %>%
 output_dw_ZOL <- get_output_gemeinden(output_dw_ZOL)
 write.csv(output_dw_ZOL,paste0("Output/",vorlagen_short[i],"_dw_ZOL.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
 
+###Output generieren für Datawrapper Appenzell
+
+output_dw_appenzell <- results[results$Kanton_Short == "AI" |
+                                 results$Kanton_Short == "AR",]
+
+output_dw_appenzell <- get_output_gemeinden(output_dw_appenzell)
+
+write.csv(output_dw_appenzell,paste0("Output/",vorlagen_short[i],"_dw_appenzell.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
+
+
 #Output generieren für Nau.ch
 output_dw_NAU_Bern <- results[results$Kanton_Short == "BE" |
                                  results$Kanton_Short == "FR",]
