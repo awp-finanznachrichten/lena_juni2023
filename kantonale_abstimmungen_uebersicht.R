@@ -114,7 +114,7 @@ dw_publish_chart(datawrapper_ids$ID[d])
 }
 
 if (sum(check_counted) == nrow(vorlagen)) {
-cat(paste0("Alle Abstimmungen aus dem Kanton ",kantone_list$geoLevelname[k]," sind ausgezählt!")) 
+cat(paste0("Alle Abstimmungen aus dem Kanton ",kantone_list$geoLevelname[k]," sind ausgezählt!\n\n")) 
   
 #Log Kantonale Abstimmungen
 cat(paste0("\n\n",Sys.time()," Kantonale Abstimmungen ",kantone_list$geoLevelname[k],"\n"),file="Output/log_file.txt",append = TRUE)
