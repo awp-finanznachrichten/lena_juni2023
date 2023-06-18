@@ -154,6 +154,7 @@ Gemeinde_Nr,Kanton_Short,Gemeinde_d,Gemeinde_f,Gemeinde_i,Gemeinde_KT_d,Gemeinde
 250,ZH,Urdorf,Urdorf,Urdorf,Urdorf ZH,Urdorf (ZH),Urdorf ZH,Zürich,Zurich,Zurigo,1
 251,ZH,Weiningen ZH,Weiningen (ZH),Weiningen ZH,Weiningen ZH,Weiningen (ZH),Weiningen ZH,Zürich,Zurich,Zurigo,1
 261,ZH,Zürich,Zurich,Zurigo,Zürich ZH,Zurich (ZH),Zurigo ZH,Zürich,Zurich,Zurigo,1
+291,ZH,Andelfingen,Andelfingen,Andelfingen,Andelfingen ZH,Andelfingen (ZH),Andelfingen ZH,Zürich,Zurich,Zurigo,1
 292,ZH,Stammheim,Stammheim,Stammheim,Stammheim ZH,Stammheim (ZH),Stammheim ZH,Zürich,Zurich,Zurigo,1
 293,ZH,Wädenswil,Wädenswil,Wädenswil,Wädenswil ZH,Wädenswil (ZH),Wädenswil ZH,Zürich,Zurich,Zurigo,1
 294,ZH,Elgg,Elgg,Elgg,Elgg ZH,Elgg (ZH),Elgg ZH,Zürich,Zurich,Zurigo,1
@@ -1355,6 +1356,7 @@ Gemeinde_Nr,Kanton_Short,Gemeinde_d,Gemeinde_f,Gemeinde_i,Gemeinde_KT_d,Gemeinde
 4183,AG,Zeihen,Zeihen,Zeihen,Zeihen AG,Zeihen (AG),Zeihen AG,Aargau,Argovie,Argovia,19
 4184,AG,Mettauertal,Mettauertal,Mettauertal,Mettauertal AG,Mettauertal (AG),Mettauertal AG,Aargau,Argovie,Argovia,19
 4185,AG,Böztal,Böztal,Böztal,Böztal AG,Böztal (AG),Böztal AG,Aargau,Argovie,Argovia,19
+4185,AG,Herznach-Ueken,Herznach-Ueken,Herznach-Ueken,Herznach-Ueken AG,Herznach-Ueken (AG),Herznach-Ueken AG,Aargau,Argovie,Argovia,19
 4191,AG,Ammerswil,Ammerswil,Ammerswil,Ammerswil AG,Ammerswil (AG),Ammerswil AG,Aargau,Argovie,Argovia,19
 4192,AG,Boniswil,Boniswil,Boniswil,Boniswil AG,Boniswil (AG),Boniswil AG,Aargau,Argovie,Argovia,19
 4193,AG,Brunegg,Brunegg,Brunegg,Brunegg AG,Brunegg (AG),Brunegg AG,Aargau,Argovie,Argovia,19
