@@ -118,7 +118,7 @@ for (i in 1:length(vorlagen_short)) {
     }
     
     #Historischer Vergleich mit mehreren Vorlagen
-    if (vorlagen$id[i] == "6640") { 
+    if (vorlagen$id[i] == "6699") { 
       hist_check <- TRUE
       hist_several_check <- TRUE
       data_hist_1 <- format_data_hist(daten_covid1_bfs)
