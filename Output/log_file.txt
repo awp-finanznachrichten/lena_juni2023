@@ -901,3 +901,39 @@ Bern, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn
 
 
 2023-06-18 15:40:00 Kantonale Abstimmungen JU
+
+
+2023-06-18 15:41:33 Kantonale Abstimmungen BE
+
+
+2023-06-18 15:41:36 Kantonale Abstimmungen LU
+
+
+2023-06-18 15:41:41 Kantonale Abstimmungen FR
+
+
+2023-06-18 15:41:44 Kantonale Abstimmungen SO
+
+
+2023-06-18 15:41:47 Kantonale Abstimmungen SH
+
+
+2023-06-18 15:41:50 Kantonale Abstimmungen SG
+
+
+2023-06-18 15:41:53 Kantonale Abstimmungen AG
+
+
+2023-06-18 15:41:55 Kantonale Abstimmungen TG
+
+
+2023-06-18 15:41:58 Kantonale Abstimmungen TI
+
+
+2023-06-18 15:42:01 Kantonale Abstimmungen VD
+
+
+2023-06-18 15:42:05 Kantonale Abstimmungen GE
+
+
+2023-06-18 15:42:08 Kantonale Abstimmungen JU
