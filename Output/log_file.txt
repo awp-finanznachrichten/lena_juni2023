@@ -124,3 +124,15 @@ Luzern, Uri, Nidwalden, Glarus, Appenzell Innerrhoden, Luzern, Uri, Nidwalden,
 Luzern, Uri, Nidwalden, Glarus, Appenzell Innerrhoden, 
 
 2023-06-18 13:18:55 Kantonale Abstimmungen LU
+Luzern, Uri, Nidwalden, 
+
+2023-06-18 13:21:01 OECD_Mindeststeuer
+Luzern, Uri, Nidwalden, Glarus, Solothurn, Appenzell Innerrhoden, Wallis, Luzern, Uri, Nidwalden, 
+
+2023-06-18 13:21:51 Klima_Gesetz
+Luzern, Uri, Nidwalden, Glarus, Solothurn, Appenzell Innerrhoden, Wallis, Luzern, Uri, Nidwalden, 
+
+2023-06-18 13:22:42 Covid_Gesetz
+Luzern, Uri, Nidwalden, Glarus, Solothurn, Appenzell Innerrhoden, Wallis, 
+
+2023-06-18 13:24:29 Kantonale Abstimmungen LU
