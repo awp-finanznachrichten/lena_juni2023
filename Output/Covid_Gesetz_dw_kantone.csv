@@ -1,15 +1,15 @@
 "Kantons_Nr","Kanton_d","Kanton_f","Kanton_i","Ja_Stimmen_In_Prozent_Kanton","Nein_Stimmen_In_Prozent_Kanton","Kanton_color","Gemeinden_overall","Gemeinden_counted","Legende"
-1,"Zürich","Zurich","Zurigo",60.7,39.3,100,160,141,"141/160"
+1,"Zürich","Zurich","Zurigo",60.8,39.2,100,160,146,"146/160"
 2,"Bern","Berne","Berna",0,0,50,333,0,"0/333"
 3,"Luzern","Lucerne","Lucerna",61.2,38.8,61.2,80,80,
-4,"Uri","Uri","Uri",0,0,50,19,0,"0/19"
-5,"Schwyz","Schwyz","Svitto",45.6,54.4,0,30,23,"23/30"
+4,"Uri","Uri","Uri",51.4,48.6,51.4,19,19,
+5,"Schwyz","Schwyz","Svitto",44.7,55.3,0,30,27,"27/30"
 6,"Obwalden","Obwald","Obvaldo",46.5,53.5,0,7,6,"6/7"
 7,"Nidwalden","Nidwald","Nidvaldo",55.3,44.7,55.3,11,11,
 8,"Glarus","Glaris","Glarona",53.6,46.4,53.6,3,3,
 9,"Zug","Zoug","Zugo",0,0,50,11,0,"0/11"
-10,"Freiburg","Fribourg","Friburgo",61.2,38.8,100,126,122,"122/126"
-11,"Solothurn","Soleure","Soletta",59.1,40.9,100,107,105,"105/107"
+10,"Freiburg","Fribourg","Friburgo",61,39,100,126,123,"123/126"
+11,"Solothurn","Soleure","Soletta",59.2,40.8,100,107,106,"106/107"
 12,"Basel-Stadt","Bâle-Ville","Basilea Città",0,0,50,3,0,"0/3"
 13,"Basel-Landschaft","Bâle-Campagne","Basilea Campagna",61.7,38.3,100,86,81,"81/86"
 14,"Schaffhausen","Schaffhouse","Sciaffusa",0,0,50,26,0,"0/26"
@@ -18,7 +18,7 @@
 17,"St. Gallen","Saint-Gall","San Gallo",52.4,47.6,100,75,63,"63/75"
 18,"Graubünden","Grisons","Grigioni",56.9,43.1,100,101,98,"98/101"
 19,"Aargau","Argovie","Argovia",58.5,41.5,100,198,189,"189/198"
-20,"Thurgau","Thurgovie","Turgovia",50.9,49.1,100,80,66,"66/80"
+20,"Thurgau","Thurgovie","Turgovia",50.8,49.2,100,80,74,"74/80"
 21,"Tessin","Tessin","Ticino",56.9,43.1,100,106,81,"81/106"
 22,"Waadt","Vaud","Vaud",66.8,33.2,100,300,295,"295/300"
 23,"Wallis","Valais","Vallese",58.8,41.2,100,122,120,"120/122"
