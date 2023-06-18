@@ -6,8 +6,10 @@ data_overview <- data.frame(50,50,"Abstimmung_de","Abstimmung_fr","Abstimmung_it
 colnames(data_overview) <- c("Ja","Nein","Abstimmung_de","Abstimmung_fr","Abstimmung_it")  
 vorlagen <- kantone_list$vorlagen[[k]]
 
+check_counted <- c()
+
 for (i in 1:nrow(vorlagen)) {
- 
+check_counted[i] <- FALSE
 results <- get_results_kantonal(json_data_kantone,
                                   k,
                                   i)
@@ -73,6 +75,7 @@ if (sum(results$Gebiet_Ausgezaehlt) > 0 ) {
                  titel_all$Vorlage_d[1],"\n",
                  titel_all$Vorlage_f[1],"\n",
                  titel_all$Vorlage_i[1],"\n\n"))
+    check_counted[i] <- TRUE
   }  
   
   Ja_Anteil <- round(Ja_Stimmen_Kanton,1)
@@ -110,4 +113,9 @@ dw_publish_chart(datawrapper_ids$ID[d])
 
 }
 
+if (sum(check_counted) == nrow(vorlagen)) {
+cat(paste0("Alle Abstimmungen aus dem Kanton ",kantone_list$geoLevelname[k]," sind ausgezählt!")) 
+}  
+  
+  
 }  
