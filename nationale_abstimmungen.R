@@ -118,7 +118,7 @@ for (i in 1:length(vorlagen_short)) {
     }
     
     #Historischer Vergleich mit mehreren Vorlagen
-    if (vorlagen$id[i] == "6699") { 
+    if (vorlagen$id[i] == "6640") { 
       hist_check <- TRUE
       hist_several_check <- TRUE
       data_hist_1 <- format_data_hist(daten_covid1_bfs)
@@ -170,7 +170,7 @@ for (i in 1:length(vorlagen_short)) {
     results_notavailable$Nein_Stimmen_In_Prozent <- 0
     results_notavailable$Gemeinde_color <- 50
     
-    if (hist_check == TRUE) {
+    if ((hist_check == TRUE) & (hist_several_check == FALSE)) {
       results_notavailable$Hist_Ja_Stimmen_In_Prozent <- NA
       results_notavailable$Hist_Ja_Stimmen_Absolut <- NA
       results_notavailable$Hist_Nein_Stimmen_In_Prozent <- NA
@@ -178,11 +178,16 @@ for (i in 1:length(vorlagen_short)) {
       
     }
     
+    if ((hist_check == TRUE) & (hist_several_check == TRUE)) {
+      results_notavailable$Hist1_Ja_Stimmen_In_Prozent <- NA
+      results_notavailable$Hist2_Ja_Stimmen_In_Prozent <- NA
+    }
+    
     if (other_check == TRUE) {
       results_notavailable$Other_Ja_Stimmen_In_Prozent <- NA
       results_notavailable$Other_Nein_Stimmen_In_Prozent <- NA
     }
-    
+
     results <- rbind(results,results_notavailable) %>%
       arrange(Gemeinde_Nr)
     

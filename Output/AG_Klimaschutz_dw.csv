@@ -1,5 +1,5 @@
 "Gemeinde_Nr","Gemeinde_color","Ja_Stimmen_In_Prozent","Nein_Stimmen_In_Prozent","Gemeinde_KT_d","Gemeinde_KT_f","Gemeinde_KT_i","Text_d","Text_f","Text_i"
-4001,50,0,0,"Aarau AG","Aarau (AG)","Aarau AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
+4001,51.1,51.1,48.9,"Aarau AG","Aarau (AG)","Aarau AG","Aarau hat die Aargauische Klimaschutzinitiative mit 51,1 Prozent angenommen.",,
 4002,37.6,37.6,62.4,"Biberstein AG","Biberstein (AG)","Biberstein AG","Nein zur Aargauische Klimaschutzinitiative in Biberstein: 62,4 Prozent haben das Begehren abgelehnt.",,
 4003,35.5,35.5,64.5,"Buchs AG","Buchs (AG)","Buchs AG","Keine Mehrheit für die Aargauische Klimaschutzinitiative in Buchs AG. 64,5 Prozent haben sie verworfen.",,
 4004,26.5,26.5,73.5,"Densbüren AG","Densbüren (AG)","Densbüren AG","Densbüren hat die Aargauische Klimaschutzinitiative mit 73,5 Prozent abgelehnt.",,
@@ -9,9 +9,9 @@
 4008,50,0,0,"Küttigen AG","Küttigen (AG)","Küttigen AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
 4009,50,0,0,"Muhen AG","Muhen (AG)","Muhen AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
 4010,28.3,28.3,71.7,"Oberentfelden AG","Oberentfelden (AG)","Oberentfelden AG","Oberentfelden hat die Aargauische Klimaschutzinitiative mit 71,7 Prozent abgelehnt.",,
-4012,50,0,0,"Suhr AG","Suhr (AG)","Suhr AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
+4012,43.4,43.4,56.6,"Suhr AG","Suhr (AG)","Suhr AG","Suhr hat die Aargauische Klimaschutzinitiative mit 56,6 Prozent abgelehnt.",,
 4013,50,0,0,"Unterentfelden AG","Unterentfelden (AG)","Unterentfelden AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
-4021,50,0,0,"Baden AG","Baden (AG)","Baden AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
+4021,48.9,48.9,51.1,"Baden AG","Baden (AG)","Baden AG","Baden hat die Aargauische Klimaschutzinitiative mit 51,1 Prozent abgelehnt.",,
 4022,27.4,27.4,72.6,"Bellikon AG","Bellikon (AG)","Bellikon AG","Nein zur Aargauische Klimaschutzinitiative in Bellikon: 72,6 Prozent haben das Begehren abgelehnt.",,
 4023,25.9,25.9,74.1,"Bergdietikon AG","Bergdietikon (AG)","Bergdietikon AG","Bergdietikon hat die Aargauische Klimaschutzinitiative mit 74,1 Prozent abgelehnt.",,
 4024,27.4,27.4,72.6,"Birmenstorf AG","Birmenstorf (AG)","Birmenstorf AG","Keine Mehrheit für die Aargauische Klimaschutzinitiative in Birmenstorf AG. 72,6 Prozent haben sie verworfen.",,
@@ -37,7 +37,7 @@
 4047,27.3,27.3,72.7,"Würenlingen AG","Würenlingen (AG)","Würenlingen AG","Nein zur Aargauische Klimaschutzinitiative in Würenlingen: 72,7 Prozent haben das Begehren abgelehnt.",,
 4048,30.3,30.3,69.7,"Würenlos AG","Würenlos (AG)","Würenlos AG","Würenlos hat die Aargauische Klimaschutzinitiative mit 69,7 Prozent abgelehnt.",,
 4049,50,0,0,"Ehrendingen AG","Ehrendingen (AG)","Ehrendingen AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
-4061,50,0,0,"Arni AG","Arni (AG)","Arni AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
+4061,30.5,30.5,69.5,"Arni AG","Arni (AG)","Arni AG","Arni AG hat die Aargauische Klimaschutzinitiative mit 69,5 Prozent abgelehnt.",,
 4062,29.5,29.5,70.5,"Berikon AG","Berikon (AG)","Berikon AG","Keine Mehrheit für die Aargauische Klimaschutzinitiative in Berikon. 70,5 Prozent haben sie verworfen.",,
 4063,38,38,62,"Bremgarten AG","Bremgarten (AG)","Bremgarten AG","Nein zur Aargauische Klimaschutzinitiative in Bremgarten AG: 62 Prozent haben das Begehren abgelehnt.",,
 4064,19.6,19.6,80.4,"Büttikon AG","Büttikon (AG)","Büttikon AG","Nein zur Aargauische Klimaschutzinitiative in Büttikon: 80,4 Prozent haben das Begehren abgelehnt.",,
@@ -56,7 +56,7 @@
 4079,26.1,26.1,73.9,"Unterlunkhofen AG","Unterlunkhofen (AG)","Unterlunkhofen AG","Unterlunkhofen hat die Aargauische Klimaschutzinitiative mit 73,9 Prozent abgelehnt.",,
 4080,22.6,22.6,77.4,"Villmergen AG","Villmergen (AG)","Villmergen AG","Villmergen hat die Aargauische Klimaschutzinitiative mit 77,4 Prozent abgelehnt.",,
 4081,31.6,31.6,68.4,"Widen AG","Widen (AG)","Widen AG","Nein zur Aargauische Klimaschutzinitiative in Widen: 68,4 Prozent haben das Begehren abgelehnt.",,
-4082,50,0,0,"Wohlen AG","Wohlen (AG)","Wohlen AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
+4082,28.9,28.9,71.1,"Wohlen AG","Wohlen (AG)","Wohlen AG","Keine Mehrheit für die Aargauische Klimaschutzinitiative in Wohlen AG. 71,1 Prozent haben sie verworfen.",,
 4083,27.1,27.1,72.9,"Zufikon AG","Zufikon (AG)","Zufikon AG","Keine Mehrheit für die Aargauische Klimaschutzinitiative in Zufikon. 72,9 Prozent haben sie verworfen.",,
 4084,31.6,31.6,68.4,"Islisberg AG","Islisberg (AG)","Islisberg AG","Nein zur Aargauische Klimaschutzinitiative in Islisberg: 68,4 Prozent haben das Begehren abgelehnt.",,
 4091,27.2,27.2,72.8,"Auenstein AG","Auenstein (AG)","Auenstein AG","Keine Mehrheit für die Aargauische Klimaschutzinitiative in Auenstein. 72,8 Prozent haben sie verworfen.",,
@@ -186,7 +186,7 @@
 4304,25.9,25.9,74.1,"Döttingen AG","Döttingen (AG)","Döttingen AG","Keine Mehrheit für die Aargauische Klimaschutzinitiative in Döttingen. 74,1 Prozent haben sie verworfen.",,
 4305,32.4,32.4,67.6,"Endingen AG","Endingen (AG)","Endingen AG","Nein zur Aargauische Klimaschutzinitiative in Endingen: 67,6 Prozent haben das Begehren abgelehnt.",,
 4306,23.3,23.3,76.7,"Fisibach AG","Fisibach (AG)","Fisibach AG","Nein zur Aargauische Klimaschutzinitiative in Fisibach: 76,7 Prozent haben das Begehren abgelehnt.",,
-4307,50,0,0,"Full-Reuenthal AG","Full-Reuenthal (AG)","Full-Reuenthal AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
+4307,22.4,22.4,77.6,"Full-Reuenthal AG","Full-Reuenthal (AG)","Full-Reuenthal AG","Keine Mehrheit für die Aargauische Klimaschutzinitiative in Full-Reuenthal. 77,6 Prozent haben sie verworfen.",,
 4309,29.1,29.1,70.9,"Klingnau AG","Klingnau (AG)","Klingnau AG","Keine Mehrheit für die Aargauische Klimaschutzinitiative in Klingnau. 70,9 Prozent haben sie verworfen.",,
 4310,33,33,67,"Koblenz AG","Koblenz (AG)","Koblenz AG","Nein zur Aargauische Klimaschutzinitiative in Koblenz: 67 Prozent haben das Begehren abgelehnt.",,
 4311,16.3,16.3,83.7,"Leibstadt AG","Leibstadt (AG)","Leibstadt AG","Leibstadt hat die Aargauische Klimaschutzinitiative mit 83,7 Prozent abgelehnt.",,
@@ -196,4 +196,4 @@
 4318,28,28,72,"Schneisingen AG","Schneisingen (AG)","Schneisingen AG","Keine Mehrheit für die Aargauische Klimaschutzinitiative in Schneisingen. 72 Prozent haben sie verworfen.",,
 4319,23.8,23.8,76.2,"Siglistorf AG","Siglistorf (AG)","Siglistorf AG","Nein zur Aargauische Klimaschutzinitiative in Siglistorf: 76,2 Prozent haben das Begehren abgelehnt.",,
 4320,24.5,24.5,75.5,"Tegerfelden AG","Tegerfelden (AG)","Tegerfelden AG","Tegerfelden hat die Aargauische Klimaschutzinitiative mit 75,5 Prozent abgelehnt.",,
-4324,50,0,0,"Zurzach AG","Zurzach (AG)","Zurzach AG","Die Resultate dieser Gemeinde sind noch nicht bekannt.","Les résultats ne sont pas encore connus dans cette commune.","I risultati di questo comune non sono ancora noti."
+4324,30.9,30.9,69.1,"Zurzach AG","Zurzach (AG)","Zurzach AG","Zurzach hat die Aargauische Klimaschutzinitiative mit 69,1 Prozent abgelehnt.",,

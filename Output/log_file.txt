@@ -52,4 +52,13 @@ Glarus,
 Glarus, 
 
 2023-06-18 12:29:54 Covid_Gesetz
-Glarus, 
+Glarus, Nidwalden, 
+
+2023-06-18 12:37:53 OECD_Mindeststeuer
+Nidwalden, Glarus, Nidwalden, 
+
+2023-06-18 12:38:34 Klima_Gesetz
+Nidwalden, Glarus, Nidwalden, 
+
+2023-06-18 12:39:12 Covid_Gesetz
+Nidwalden, Glarus, 
