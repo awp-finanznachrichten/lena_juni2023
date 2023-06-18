@@ -1,4 +1,4 @@
-repeat{
+#repeat{
 
 #Working Directory definieren
 setwd("C:/Users/simon/OneDrive/LENA_Project/20230618_LENA_Abstimmungen")
@@ -100,5 +100,5 @@ cat(time_end-time_start)
 }
 
 #Sys.sleep(60)
-}
+#}
 
