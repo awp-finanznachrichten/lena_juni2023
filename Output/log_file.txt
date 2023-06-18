@@ -79,4 +79,13 @@ Nidwalden, Glarus, Appenzell Innerrhoden, Nidwalden,
 Nidwalden, Glarus, Appenzell Innerrhoden, Nidwalden, 
 
 2023-06-18 12:54:07 Covid_Gesetz
+Nidwalden, Glarus, Appenzell Innerrhoden, Nidwalden, 
+
+2023-06-18 12:58:17 OECD_Mindeststeuer
+Nidwalden, Glarus, Appenzell Innerrhoden, Nidwalden, 
+
+2023-06-18 12:59:05 Klima_Gesetz
+Nidwalden, Glarus, Appenzell Innerrhoden, Nidwalden, 
+
+2023-06-18 12:59:49 Covid_Gesetz
 Nidwalden, Glarus, Appenzell Innerrhoden, 
