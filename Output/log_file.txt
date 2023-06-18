@@ -817,3 +817,48 @@ Bern, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn
 
 
 2023-06-18 15:28:58 Kantonale Abstimmungen JU
+Luzern, Uri, Schwyz, Obwalden, Nidwalden, Zug, 
+
+2023-06-18 15:30:28 OECD_Mindeststeuer
+Bern, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Basel-Stadt, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Graubünden, Aargau, Thurgau, Tessin, Waadt, Wallis, Neuenburg, Genf, Jura, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Zug, 
+
+2023-06-18 15:31:37 Klima_Gesetz
+Bern, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Basel-Stadt, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Graubünden, Aargau, Thurgau, Tessin, Waadt, Wallis, Neuenburg, Genf, Jura, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Zug, 
+
+2023-06-18 15:32:40 Covid_Gesetz
+Bern, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Basel-Stadt, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Graubünden, Aargau, Thurgau, Tessin, Waadt, Wallis, Neuenburg, Genf, Jura, 
+
+2023-06-18 15:34:46 Kantonale Abstimmungen BE
+
+
+2023-06-18 15:34:49 Kantonale Abstimmungen LU
+
+
+2023-06-18 15:34:54 Kantonale Abstimmungen FR
+
+
+2023-06-18 15:34:57 Kantonale Abstimmungen SO
+
+
+2023-06-18 15:35:00 Kantonale Abstimmungen SH
+
+
+2023-06-18 15:35:03 Kantonale Abstimmungen SG
+
+
+2023-06-18 15:35:06 Kantonale Abstimmungen AG
+
+
+2023-06-18 15:35:09 Kantonale Abstimmungen TG
+
+
+2023-06-18 15:35:12 Kantonale Abstimmungen TI
+
+
+2023-06-18 15:35:15 Kantonale Abstimmungen VD
+
+
+2023-06-18 15:35:19 Kantonale Abstimmungen GE
+
+
+2023-06-18 15:35:22 Kantonale Abstimmungen JU
