@@ -5,7 +5,7 @@ library(zip)
 library(RCurl)
 
 #Working Directory definieren
-setwd("C:/Users/sw/OneDrive/LENA_Project/20230618_LENA_Abstimmungen")
+setwd("C:/Users/simon/OneDrive/LENA_Project/20230618_LENA_Abstimmungen")
 
 ###Config: Bibliotheken laden, Pfade/Links definieren, bereits vorhandene Daten laden
 source("config.R",encoding = "UTF-8")
@@ -13,7 +13,7 @@ source("functions_readin.R", encoding = "UTF-8")
 
 #Vorlagen Codes
 vorlage_gemeinde <- c("kDkMR","5NIK3","Idw6B")
-vorlage_kantone <- c("Tfr6N","qI7hZ","GAF2u")
+vorlage_kantone <- c("Tfr6N","RZFmo","fOEsn")
 
 #Ordner Codes
 folder_de <- "117142"
@@ -40,8 +40,8 @@ vorlagen_fr$text[3] <- "Modification de la loi sur le Covid"
 
 vorlagen_it <- get_vorlagen(json_data,"it")
 
-vorlagen$text <- str_replace(vorlagen$text, "\\s*\\([^\\)]+\\)", "")
-vorlagen_fr$text <- str_replace(vorlagen_fr$text, "\\s*\\([^\\)]+\\)", "")
+#vorlagen$text <- str_replace(vorlagen$text, "\\s*\\([^\\)]+\\)", "")
+#vorlagen_fr$text <- str_replace(vorlagen_fr$text, "\\s*\\([^\\)]+\\)", "")
 vorlagen_it$text <- str_replace(vorlagen_it$text, "\\s*\\([^\\)]+\\)", "")
 
 for (i in 1:length(vorlagen_short) ) {
@@ -54,6 +54,11 @@ Stimmbeteiligung <- round(results_national$stimmbeteiligungInProzent,1)
 Staende_Ja <- results_national$jaStaendeGanz+(results_national$jaStaendeHalb/2)
 Staende_Nein <- results_national$neinStaendeGanz+(results_national$neinStaendeHalb/2)
 
+#Ja_Anteil <- 55.2
+#Nein_Anteil <- 44.8
+#Stimmbeteiligung <- 52.4
+#Staende_Ja <- 19
+#Staende_Nein <- 4
 
 #####DEUTSCH
 
@@ -135,6 +140,7 @@ dw_edit_chart(new_chart$id,title=titel,
               axes=list("values"="Kanton_color"),
               folderId = folder_de)
 
+dw_publish_chart(new_chart$id)
 ###Bilddaten speichen und hochladen für Kanton
 
 setwd("./Grafiken")
@@ -194,7 +200,7 @@ dw_edit_chart(new_chart$id,title=titel,
               axes=list("values"="Gemeinde_color"),
               folderId = folder_de)
 
-
+dw_publish_chart(new_chart$id)
 ##Bilddaten speichen und hochladen für Gemeinde
 setwd("./Grafiken")
 
@@ -291,12 +297,13 @@ undertitel_all <- gsub('6px"></b> 0 Non',
 #Stimmbeteiligung
 footer <- paste0('Source: OFS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",30),
+                 strrep("&nbsp;",29),
                  "</b>Etat: ",format(Sys.time(),"%d.%m.%Y %Hh%M"),
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
-                 strrep("&nbsp;",22),
+                 strrep("&nbsp;",21),
                  "</b>Infographie: Keystone-ATS"
                  )
+
 ###Vorlage kopieren
 new_chart <-dw_copy_chart(vorlage_kantone[2])
 
@@ -304,18 +311,19 @@ chart_metadata <- dw_retrieve_chart_metadata(vorlage_kantone[2])
 
 adapted_list <- chart_metadata[["content"]][["metadata"]][["visualize"]]
 adapted_list$`text-annotations`[[1]]$text <- gsub("#voters",paste0(gsub("[.]",",",Stimmbeteiligung),"%"),adapted_list$`text-annotations`[[1]]$text)
+adapted_list$legends$color$title <- "pourcentage de oui"
 
-#Grafik anpassen
+
 dw_edit_chart(new_chart$id,title=titel,
-              language="fr-CH",
+              #language="fr-CH",
               intro=undertitel_all,
-              visualize=adapted_list,
               annotate=footer,
+              visualize=adapted_list,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_",tolower(abstimmung_date),"/master/Output/",vorlagen_short[i],"_dw_kantone.csv")),
               axes=list("values"="Kanton_color"),
-              visualize = list("legend"=list("title"="pourcentage de oui")),
               folderId = folder_fr)
 
+dw_publish_chart(new_chart$id)
 ###Bilddaten speichen und hochladen für Kanton
 
 setwd("./Grafiken")
@@ -377,7 +385,7 @@ dw_edit_chart(new_chart$id,title=titel,
               visualize = list("legend"=list("title"="pourcentage de oui")),
               folderId = folder_fr)
 
-
+dw_publish_chart(new_chart$id)
 ##Bilddaten speichen und hochladen für Gemeinde
 setwd("./Grafiken")
 
@@ -482,7 +490,7 @@ block_stimmbeteiligung <- paste0('<b>Tasso di partecipazione</b><br>',
                                  strrep("&nbsp;",20-length_stimmbeteiligung),"</b><br>",
                                  strrep("&nbsp;",16),
                                  gsub("[.]",",",Stimmbeteiligung),"%")
-block_stimmbeteiligung
+
 footer <- paste0('Fonte: UTS, Lena',
                  '<b style="background:	#FFFFFF; color:black; padding:1px 6px">',
                  strrep("&nbsp;",32),
@@ -499,6 +507,7 @@ chart_metadata <- dw_retrieve_chart_metadata(vorlage_kantone[3])
 
 adapted_list <- chart_metadata[["content"]][["metadata"]][["visualize"]]
 adapted_list$`text-annotations`[[1]]$text <- gsub("#voters",paste0(gsub("[.]",",",Stimmbeteiligung),"%"),adapted_list$`text-annotations`[[1]]$text)
+adapted_list$legends$color$title <- "percentuale sì"
 
 #Grafik anpassen
 dw_edit_chart(new_chart$id,title=titel,
@@ -508,9 +517,9 @@ dw_edit_chart(new_chart$id,title=titel,
               annotate=footer,
               data=list("external-data"=paste0("https://raw.githubusercontent.com/awp-finanznachrichten/lena_",tolower(abstimmung_date),"/master/Output/",vorlagen_short[i],"_dw_kantone.csv")),
               axes=list("values"="Kanton_color"),
-              visualize = list("legend"=list("title"="percentuale sì")),
               folderId = folder_it)
 
+dw_publish_chart(new_chart$id)
 ###Bilddaten speichen und hochladen für Kanton
 
 setwd("./Grafiken")
@@ -573,8 +582,8 @@ dw_edit_chart(new_chart$id,title=titel,
               visualize = list("legend"=list("title"="percentuale sì")),
               folderId = folder_it)
 
-metadata <- dw_retrieve_chart_metadata(new_chart$id)
-
+#metadata <- dw_retrieve_chart_metadata(new_chart$id)
+dw_publish_chart(new_chart$id)
 
 ##Bilddaten speichen und hochladen für Gemeinde
 setwd("./Grafiken")
