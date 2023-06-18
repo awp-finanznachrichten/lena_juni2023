@@ -1,7 +1,7 @@
 "Kantons_Nr","Kanton_d","Kanton_f","Kanton_i","Ja_Stimmen_In_Prozent_Kanton","Nein_Stimmen_In_Prozent_Kanton","Kanton_color","Gemeinden_overall","Gemeinden_counted","Legende"
-1,"Zürich","Zurich","Zurigo",78.8,21.2,100,160,138,"138/160"
+1,"Zürich","Zurich","Zurigo",78.8,21.2,100,160,142,"142/160"
 2,"Bern","Berne","Berna",0,0,50,333,0,"0/333"
-3,"Luzern","Lucerne","Lucerna",78.7,21.3,100,80,79,"79/80"
+3,"Luzern","Lucerne","Lucerna",78.7,21.3,78.7,80,80,
 4,"Uri","Uri","Uri",0,0,50,19,0,"0/19"
 5,"Schwyz","Schwyz","Svitto",74.8,25.2,100,30,23,"23/30"
 6,"Obwalden","Obwald","Obvaldo",77,23,100,7,6,"6/7"
@@ -19,7 +19,7 @@
 18,"Graubünden","Grisons","Grigioni",77.6,22.4,100,101,98,"98/101"
 19,"Aargau","Argovie","Argovia",76.8,23.2,100,198,189,"189/198"
 20,"Thurgau","Thurgovie","Turgovia",75.7,24.3,100,80,66,"66/80"
-21,"Tessin","Tessin","Ticino",75.8,24.2,100,106,76,"76/106"
+21,"Tessin","Tessin","Ticino",75.9,24.1,100,106,81,"81/106"
 22,"Waadt","Vaud","Vaud",86.3,13.7,100,300,295,"295/300"
 23,"Wallis","Valais","Vallese",79.6,20.4,100,122,120,"120/122"
 24,"Neuenburg","Neuchâtel","Neuchâtel",0,0,50,27,0,"0/27"

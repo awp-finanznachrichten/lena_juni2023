@@ -1,5 +1,5 @@
 "Kantons_Nr","Kanton_d","Kanton_f","Kanton_i","Ja_Stimmen_In_Prozent_Kanton","Nein_Stimmen_In_Prozent_Kanton","Kanton_color","Gemeinden_overall","Gemeinden_counted","Legende"
-3,"Luzern","Lucerne","Lucerna",59,41,100,80,79,"79/80"
+3,"Luzern","Lucerne","Lucerna",59,41,59,80,80,
 4,"Uri","Uri","Uri",0,0,50,19,0,"0/19"
 5,"Schwyz","Schwyz","Svitto",41.6,58.4,0,30,23,"23/30"
 6,"Obwalden","Obwald","Obvaldo",42.6,57.4,0,7,6,"6/7"
