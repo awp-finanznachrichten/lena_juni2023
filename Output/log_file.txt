@@ -217,3 +217,27 @@ Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Base
 
 
 2023-06-18 13:47:42 Kantonale Abstimmungen AG
+Luzern, Uri, Schwyz, Obwalden, Nidwalden, Zug, 
+
+2023-06-18 13:49:28 OECD_Mindeststeuer
+Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, Aargau, Wallis, Neuenburg, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Zug, 
+
+2023-06-18 13:50:22 Klima_Gesetz
+Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Basel-Landschaft, Schaffhausen, Appenzell Innerrhoden, Aargau, Wallis, Neuenburg, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Zug, 
+
+2023-06-18 13:51:09 Covid_Gesetz
+Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Basel-Landschaft, Schaffhausen, Appenzell Innerrhoden, Aargau, Wallis, Neuenburg, 
+
+2023-06-18 13:53:00 Kantonale Abstimmungen LU
+
+
+2023-06-18 13:53:07 Kantonale Abstimmungen FR
+
+
+2023-06-18 13:53:11 Kantonale Abstimmungen SO
+
+
+2023-06-18 13:53:14 Kantonale Abstimmungen SH
+
+
+2023-06-18 13:53:20 Kantonale Abstimmungen AG
