@@ -1288,3 +1288,42 @@ Zürich, Bern, Luzern, Uri, Schwyz, Obwalden, Nidwalden, Glarus, Zug, Freiburg, S
 
 
 2023-06-18 17:18:57 Kantonale Abstimmungen JU
+
+
+2023-06-19 08:21:29 Kantonale Abstimmungen ZH
+
+
+2023-06-19 08:21:35 Kantonale Abstimmungen BE
+
+
+2023-06-19 08:21:38 Kantonale Abstimmungen LU
+
+
+2023-06-19 08:21:44 Kantonale Abstimmungen FR
+
+
+2023-06-19 08:21:48 Kantonale Abstimmungen SO
+
+
+2023-06-19 08:21:50 Kantonale Abstimmungen SH
+
+
+2023-06-19 08:21:53 Kantonale Abstimmungen SG
+
+
+2023-06-19 08:21:56 Kantonale Abstimmungen AG
+
+
+2023-06-19 08:21:59 Kantonale Abstimmungen TG
+
+
+2023-06-19 08:22:02 Kantonale Abstimmungen TI
+
+
+2023-06-19 08:22:06 Kantonale Abstimmungen VD
+
+
+2023-06-19 08:22:09 Kantonale Abstimmungen GE
+
+
+2023-06-19 08:22:13 Kantonale Abstimmungen JU

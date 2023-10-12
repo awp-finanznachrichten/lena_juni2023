@@ -13,22 +13,28 @@ library(readxl)
 library(git2r)
 library(DatawRappr)
 library(lubridate)
-
+library(httr)
 cat("Benoetigte Bibliotheken geladen\n")
 
 #Welche Abstimmung?
 abstimmung_date <- "Juni2023"
 
-download.file("https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20230618-eidgAbstimmung.json",
-              destfile = "Data/sd-t-17-02-20230618-eidgAbstimmung.json",
-              method = "curl")
-json_data <- fromJSON("Data/sd-t-17-02-20230618-eidgAbstimmung.json", flatten = TRUE)
+res <- GET("https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20230618-eidgAbstimmung.json")
+json_data <- fromJSON(rawToChar(res$content), flatten = TRUE)
 
 
-download.file("https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20230618-kantAbstimmung.json",
-              destfile = "Data/sd-t-17-02-20230618-eidgAbstimmung.json",
-              method = "curl")
-json_data_kantone <- fromJSON("Data/sd-t-17-02-20230618-kantAbstimmung.json", flatten = TRUE)
+#download.file("https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20230618-eidgAbstimmung.json",
+#              destfile = "Data/sd-t-17-02-20230618-eidgAbstimmung.json",
+#              method = "curl")
+#json_data <- fromJSON("Data/sd-t-17-02-20230618-eidgAbstimmung.json", flatten = TRUE)
+
+res <- GET("https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20230618-kantAbstimmung.json")
+json_data_kantone <- fromJSON(rawToChar(res$content), flatten = TRUE)
+
+#download.file("https://app-prod-static-voteinfo.s3.eu-central-1.amazonaws.com/v1/ogd/sd-t-17-02-20230618-kantAbstimmung.json",
+#              destfile = "Data/sd-t-17-02-20230618-eidgAbstimmung.json",
+#              method = "curl")
+#json_data_kantone <- fromJSON("Data/sd-t-17-02-20230618-kantAbstimmung.json", flatten = TRUE)
 
 cat("Aktuelle Abstimmungsdaten geladen\n")
 
